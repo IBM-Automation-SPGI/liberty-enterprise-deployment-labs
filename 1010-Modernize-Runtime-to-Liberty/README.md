@@ -652,14 +652,15 @@ the PlantsByWebSphere application to properly run in WebSphere Liberty:
     These are the credentials the application uses to access the DB2
  application database.
 
-    a. Go to line numbers **66** and **67**
-
-    b. Set defaultValue=”**db2inst1**” for the
-     “**rhel9\_baseNode01\_pbwuser\_user”** variable
-
-    c. Set defaultValue=”**db2inst1-pwd**” for the
+    a. Go to line numbers **66** and **67** 
+    
+    b. Set defaultValue=”**db2inst1-pwd**” for the
      “**rhel9\_baseNode01\_pbwuser\_password”** variable
 
+    c. Set defaultValue=”**db2inst1**” for these
+     “**rhel9\_baseNode01\_pbwuser\_user”** variable
+
+    
     ![](./images/media/image34.png)
 
 3.  Modify the application HTTP and HTTP ports to avoid possible port

@@ -1,11 +1,13 @@
-## Índice de Directorios
+# Liberty Enterprise Deployment Labs – Index
 
-- [1005-Transformation_Advisor](./1005-Transformation_Advisor)
-- [1010-Modernize-Runtime-to-Liberty](./1010-Modernize-Runtime-to-Liberty)
-- [1020-Liberty-app-deployment-collectives](./1020-Liberty-app-deployment-collectives)
-- [1030-Value-of-Liberty-dynamic-routing](./1030-Value-of-Liberty-dynamic-routing)
-- [1040-Liberty-Session-Persistence-FailOver](./1040-Liberty-Session-Persistence-FailOver)
-- [1050-Zero-migration-upgrade-Liberty](./1050-Zero-migration-upgrade-Liberty)
-- [1060-Liberty-Day2-operations](./1060-Liberty-Day2-operations)
-- [1070-Liberty-observability-Instana](./1070-Liberty-observability-Instana)
-- [4311-Liberty-Enterprise-Deployment](./4311-Liberty-Enterprise-Deployment)
+| Code  | Directory Name                               | Detailed Description |
+|-------|----------------------------------------------|----------------------|
+| **1005** | [Transformation_Advisor](./1005-Transformation_Advisor) | Use IBM Transformation Advisor to analyze and assess legacy applications for modernization. Includes instructions for installing the tool, collecting application data, uploading results, and interpreting recommendations for migration to Liberty. Provides hands-on steps to generate migration artifacts and understand application complexity. |
+| **1010** | [Modernize-Runtime-to-Liberty](./1010-Modernize-Runtime-to-Liberty) | Step-by-step guide to modernizing a traditional WebSphere application to Liberty. Covers analysis, code changes, and configuration migration. Includes sample code, configuration templates, and exercises to deploy the application on Liberty with minimal changes. |
+| **1020** | [Liberty-app-deployment-collectives](./1020-Liberty-app-deployment-collectives) | Deploy and manage Liberty applications in a collective environment. Covers creating a collective, joining servers, deploying applications to multiple servers, and managing configurations centrally. Includes automation scripts and best practices for enterprise deployments. |
+| **1030** | [Value-of-Liberty-dynamic-routing](./1030-Value-of-Liberty-dynamic-routing) | Configure and demonstrate dynamic routing in a Liberty collective. Explains how to enable the dynamicRouting-1.0 feature, generate plugin configurations, and set up intelligent request routing and failover. Includes practical exercises for testing and validating routing rules. |
+| **1040** | [Liberty-Session-Persistence-FailOver](./1040-Liberty-Session-Persistence-FailOver) | Implement session persistence and failover for Liberty applications in a collective. Covers configuration of database-backed session persistence, testing failover scenarios, and ensuring session continuity across server restarts or failures. Includes sample configurations and troubleshooting tips. |
+| **1050** |  [Zero-migration-upgrade-Liberty](./1050-Zero-migration-upgrade-Liberty) | Upgrade Liberty applications with minimal or no migration effort. Demonstrates how to use existing configuration and application files with newer Liberty versions, leveraging Liberty’s zero-migration architecture. Includes exercises for validating compatibility and testing upgrades. |
+| **1060** | [Liberty-Day2-operations](./1060-Liberty-Day2-operations) | Manage and operate Liberty environments after deployment. Covers monitoring, logging, scaling, security updates, and troubleshooting. Includes hands-on exercises for common operational tasks and best practices for maintaining production environments. |
+| **1070** | [Liberty-observability-Instana](./1070-Liberty-observability-Instana) | Integrate Liberty with Instana for advanced observability. Covers agent installation, configuration, and monitoring setup. Includes exercises for real-time performance monitoring, tracing, and incident management using Instana’s capabilities. |
+| **4311** | [Liberty-Enterprise-Deployment](./4311-Liberty-Enterprise-Deployment) | Advanced enterprise deployment of Liberty applications. Covers large-scale automation, integration with enterprise systems, and best practices for running Liberty in mission-critical environments. Includes exercises for deployment automation, configuration management, and integration with CI/CD pipelines. |

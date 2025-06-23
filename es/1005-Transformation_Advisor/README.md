@@ -40,7 +40,7 @@ KLP: ENLACE A DETERMINAR PARA LA RESERVA DE ENV
 
 El entorno de laboratorio contiene dos (2) máquinas virtuales Linux.
 
-![](./images/media/image3.png)
+![](../images/media/image3.png)
 
 Se configura un servicio publicado para proporcionar acceso a la VM **server0** a través de la interfaz noVNC para el entorno de laboratorio.
 

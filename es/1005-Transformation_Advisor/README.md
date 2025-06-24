@@ -1,4 +1,4 @@
-# 1005: Asesor de Transformación
+# 1005: Transformation Advisor
 
 ![bandera](./images/media/image1.jpeg)
 
@@ -34,7 +34,7 @@ La herramienta Transformation Advisor proporciona el siguiente valor:
 
 Si realiza este laboratorio como parte de un taller impartido por un instructor (virtual o presencial), ya se le ha proporcionado un entorno. El instructor le proporcionará los detalles para acceder al laboratorio.
 
-De lo contrario, deberá reservar un entorno para el laboratorio. Puede obtenerlo aquí. Siga las instrucciones en pantalla para la opción " **Reservar ahora** ".
+De lo contrario, deberá reservar un entorno para el laboratorio. Puede obtenerlo aquí. Siga las instrucciones en pantalla para la opción "**Reservar ahora**".
 
 KLP: ENLACE A DETERMINAR PARA LA RESERVA DE ENV
 
@@ -46,7 +46,7 @@ Se configura un servicio publicado para proporcionar acceso a la VM **server0** 
 
 1. Acceda al entorno de laboratorio desde su navegador web.
 
-    a. Una vez aprovisionado el entorno, haga clic con el botón derecho en el enlace **"Servicio publicado"** . A continuación, seleccione " **Abrir enlace en una nueva pestaña** " en el menú contextual.
+    a. Una vez aprovisionado el entorno, haga clic con el botón derecho en el enlace **"Servicio publicado"**. A continuación, seleccione "**Abrir enlace en una nueva pestaña**" en el menú contextual.
 
     ![](./images/media/image4.png)
 
@@ -102,7 +102,7 @@ Se configura un servicio publicado para proporcionar acceso a la VM **server0** 
 
 <br>
 
-## Laboratorio: Asesor de Transformación
+## Laboratorio: Transformation Advisor
 
 Este laboratorio demuestra el uso de Transformation Advisor para **la modernización del entorno de ejecución a Liberty** . Utiliza la aplicación PlantsByWebSphere, que se origina en WebSphere ND V8.5.5.
 
@@ -128,7 +128,7 @@ Este laboratorio requiere artefactos almacenados en un repositorio de GitHub. Ej
 
 1. Clonar el repositorio de GitHub que contiene los artefactos de laboratorio necesarios para el laboratorio.
 
-    a. Abra una nueva ventana de terminal en la máquina virtual “ **server0.gym.lan** ”.
+    a. Abra una nueva ventana de terminal en la máquina virtual “**server0.gym.lan**”.
 
     ![](./images/media/image11.png)
 
@@ -162,7 +162,7 @@ En esta sección, echará un vistazo rápido al entorno actual de WebSphere Appl
 
     ![](./images/media/image11.png)
 
-    b. En la ventana de terminal, ejecute el siguiente comando para iniciar la base de datos DB2. Luego, use el comando " **docker ps** " para verificar que el contenedor de la base de datos esté en ejecución.
+    b. En la ventana de terminal, ejecute el siguiente comando para iniciar la base de datos DB2. Luego, use el comando "**docker ps**" para verificar que el contenedor de la base de datos esté en ejecución.
 
     ```
     docker start db2_demo_data
@@ -182,7 +182,7 @@ En esta sección, echará un vistazo rápido al entorno actual de WebSphere Appl
     /opt/IBM/WebSphere/AppServer85515/bin/startServer.sh tWAS_85515_server
     ```
 
-    El servidor de aplicaciones WebSphere está listo cuando aparece el mensaje que indica que el servidor está “ **abierto para comercio electrónico”** , como se ilustra a continuación:
+    El servidor de aplicaciones WebSphere está listo cuando aparece el mensaje que indica que el servidor está “**abierto para comercio electrónico”** , como se ilustra a continuación:
 
     ![](./images/media/image13.png)
 
@@ -210,7 +210,7 @@ En esta sección, echará un vistazo rápido al entorno actual de WebSphere Appl
 
     ![](./images/media/image17.png)
 
-    En la lista **de aplicaciones empresariales** , puede ver que la aplicación PlantsByWebSphere está implementada y en estado " **en ejecución** ", como lo indica el ícono VERDE Iniciado.
+    En la lista **de aplicaciones empresariales** , puede ver que la aplicación PlantsByWebSphere está implementada y en estado "**en ejecución**", como lo indica el ícono VERDE Iniciado.
 
     A continuación, ejecutará rápidamente la aplicación PlantsByWebSphere desde el navegador Firefox para asegurarse de que funcione como se espera.
 
@@ -218,7 +218,7 @@ En esta sección, echará un vistazo rápido al entorno actual de WebSphere Appl
 
     a. Desde el navegador Firefox, abra una **nueva** pestaña del navegador.
 
-    b. Haga clic en el marcador " **Plantas de WebSphere** " o introduzca la siguiente URL en el navegador:
+    b. Haga clic en el marcador "**Plantas de WebSphere**" o introduzca la siguiente URL en el navegador:
 
     ```
     http://server0.gym.lan:9080/PlantsByWebSphere
@@ -226,7 +226,7 @@ En esta sección, echará un vistazo rápido al entorno actual de WebSphere Appl
 
     ![](./images/media/image18.png)
 
-    c. Haga clic en la pestaña “ **Flores** ”, que recuperará el catálogo de flores de la base de datos DB2.
+    c. Haga clic en la pestaña “**Flowers**”, que recuperará el catálogo de flores de la base de datos DB2.
 
     Si se muestra la lista de Flores, la aplicación está funcionando como se espera en el entorno de WebSphere Application Server.
 
@@ -258,7 +258,7 @@ Puede probar Transformation Advisor – Local usted mismo registrándose para un
 
 En este entorno de laboratorio, hemos preinstalado Transformation Advisor – Local, que se ejecuta en contenedores Docker.
 
-1. Inicie el **Asesor de Transformación** utilizando los siguientes comandos:
+1. Inicie el **Transformation Advisor** utilizando los siguientes comandos:
 
     ```
     cd /home/techzone/transformation-advisor-local-3.4.0
@@ -268,7 +268,7 @@ En este entorno de laboratorio, hemos preinstalado Transformation Advisor – Lo
 
     Espere a que Transformation Advisor se inicialice y muestre la lista del menú de acciones.
 
-2. Escriba **5** y presione **Entrar** para iniciar el **Asesor de Transformación** .
+2. Escriba **5** y presione **Entrar** para iniciar el **Transformation Advisor** .
 
     ![](./images/media/image20.png)
 
@@ -282,7 +282,7 @@ En este entorno de laboratorio, hemos preinstalado Transformation Advisor – Lo
 
     ![](./images/media/image22.png)
 
-En la siguiente sección, usará la interfaz de usuario del Asesor de Transformación para descargar la **utilidad del recopilador de datos** para el entorno de WebSphere Application Server. En este laboratorio, WebSphere se ejecuta en la máquina virtual Linux.
+En la siguiente sección, usará la interfaz de usuario del Transformation Advisor para descargar la **utilidad del recopilador de datos** para el entorno de WebSphere Application Server. En este laboratorio, WebSphere se ejecuta en la máquina virtual Linux.
 
 ### **Descargar la utilidad Transformation Advisor Data Collector**
 
@@ -326,7 +326,7 @@ Utilice los siguientes pasos para descargar la utilidad de recopilación de dato
 
     <img src="./images/media/image27.png" alt="Una captura de pantalla de una publicación en redes sociales Descripción automáticamente&lt;span translate=" no=""> datos generados por "md-type="image"&gt;
 
-    b. En el navegador Firefox, una vez finalizada la descarga, verá el archivo en la carpeta " **Descargas** ".
+    b. En el navegador Firefox, una vez finalizada la descarga, verá el archivo en la carpeta "**Descargas**".
 
     ![](./images/media/image28.png)
 
@@ -348,7 +348,7 @@ Ahora, ejecutemos el recopilador de datos.
     ls -l | grep transformationadvisor
     ```
 
-    Puede ver el archivo de utilidad de recopilación de datos descargado llamado “ **transformationadvisor-Linux_WAS855.tgz** ”
+    Puede ver el archivo de utilidad de recopilación de datos descargado llamado “**transformationadvisor-Linux_WAS855.tgz** ”
 
     ![](./images/media/image29.png)
 
@@ -362,7 +362,7 @@ Ahora, ejecutemos el recopilador de datos.
 
     La utilidad del recopilador de datos se extraerá a:
 
-    "/inicio/techzone/Estudiante/laboratorio_1005/asesor-de-transformaciones-3.4.0"
+    "/home/techzone/Student/lab_1005/transformationadvisor-3.4.0"
 
 3. Verifique que el recopilador de datos se haya extraído al directorio de destino:
 
@@ -374,9 +374,9 @@ Ahora, ejecutemos el recopilador de datos.
 
     **Nota:** En este punto, el recopilador de datos está listo para ejecutarse en un entorno WebSphere.
 
-4. Regrese a la interfaz de usuario de Transformation Advisor en el navegador web para ver la sección “ **Ejecutar la herramienta** ”, que muestra el comando para ejecutar en el entorno de WebSphere.
+4. Regrese a la interfaz de usuario de Transformation Advisor en el navegador web para ver la sección “**Ejecutar la herramienta**”, que muestra el comando para ejecutar en el entorno de WebSphere.
 
-    a. Desde la página **Recopilador de datos** , desplácese hacia abajo hasta la sección " **Ejecutar herramienta** ".
+    a. Desde la página **Recopilador de datos** , desplácese hacia abajo hasta la sección "**Ejecutar herramienta**".
 
     El comando recopilador de datos que se ejecutará se basa en las selecciones **de dominio** y **tipo de análisis** que realice en esta sección.
 
@@ -388,7 +388,7 @@ Ahora, ejecutemos el recopilador de datos.
 
     ![](./images/media/image32.png)
 
-6. Seleccione el tipo de análisis de “ **Aplicaciones y configuración** ”
+6. Seleccione el tipo de análisis de “**Aplicaciones y configuración**”.
 
     Al seleccionar **Aplicaciones y configuración** se garantiza que se recopilen los datos de la aplicación y los datos de configuración del servidor.
 
@@ -416,7 +416,7 @@ Ahora, ejecutemos el recopilador de datos.
     </tbody>
     </table>
 
-8. Escriba el número “ **1”** para aceptar el acuerdo de licencia y presione **Enter** , como se ilustra a continuación.
+8. Escriba el número **"1”** para aceptar el acuerdo de licencia y presione **Enter** , como se ilustra a continuación.
 
     ![](./images/media/image34.png)
 
@@ -436,9 +436,9 @@ Ahora, ejecutemos el recopilador de datos.
 
     > **La recopilación de datos se generó en el siguiente archivo: /home/techzone/Student/lab_1005/transformationadvisor-3.4.0/AppSrv01.zip**
     >
-    > **Gracias por subir sus datos. Puede acceder a la interfaz de usuario de la aplicación para realizar un análisis más detallado.**
+    > Gracias por subir sus datos. Puede acceder a la interfaz de usuario de la aplicación para realizar un análisis más detallado.
 
-    Los datos de su solicitud se recopilan y se guardan en el archivo “ **AppSrv01.zip** ”.
+    Los datos de su solicitud se recopilan y se guardan en el archivo “**AppSrv01.zip**”.
 
     En general, si su servidor de aplicaciones y **Transformation Advisor** están en la misma infraestructura de red, los datos recopilados se cargarán automáticamente en **Transformation Advisor** para que pueda ver los resultados del análisis.
 
@@ -446,13 +446,13 @@ Ahora, ejecutemos el recopilador de datos.
 
 ### **Subir la recopilación de datos a Transformation Advisor**
 
-En esta sección, cargará el archivo zip de recopilación de datos “ **AppSrv01.zip** ” desde el entorno de WebSphere para su análisis.
+En esta sección, cargará el archivo zip de recopilación de datos “**AppSrv01.zip**” desde el entorno de WebSphere para su análisis.
 
-1. Regrese a la página del Asesor de Transformación en el navegador web, haga clic en “ **Tipo de carga de trabajo** ”
+1. Regrese a la página del Transformation Advisor en el navegador web, haga clic en “**Workload type** ”
 
     ![](./images/media/image36.png)
 
-    Una vez que la recopilación de datos se haya cargado en Transformation Advisor, se le redirigirá nuevamente a la vista “ **Todas las aplicaciones Java** ” de Transformation Advisor.
+    Una vez que la recopilación de datos se haya cargado en Transformation Advisor, se le redirigirá nuevamente a la vista “**All Java applications**” de Transformation Advisor.
 
 2. Opcionalmente, cambie el tamaño de la ventana del navegador Firefox y reduzca el tamaño del texto, para poder proporcionar una vista óptima de los resultados del análisis de Transformation Advisor.
 
@@ -460,25 +460,25 @@ En esta sección, cargará el archivo zip de recopilación de datos “ **AppSrv
 
 3. Revise la **información de resumen del espacio de trabajo** en la parte superior de la página.
 
-    Observe que la página muestra " **Todas las aplicaciones Java** " del perfil de WebSphere Application Server llamado **AppSrv01** . En este caso, solo se muestra una aplicación: " **plantsbywebsphereee6.ear** ".
+    Observe que la página muestra "**All Java applications**" del perfil de WebSphere Application Server llamado **AppSrv01** . En este caso, solo se muestra una aplicación: "**plantsbywebsphereee6.ear**".
 
     ![](./images/media/image38.png)
 
-    Los siguientes detalles están incluidos en el “ **resumen del espacio de trabajo** ” ubicado en la parte superior de la página.
+    Los siguientes detalles están incluidos en el “**workspace summary**” ubicado en la parte superior de la página.
 
-    - **Destino de migración:** La selección predeterminada es " **WebSphere Liberty** " como el destino de migración más óptimo. Sin embargo, también puede ver los detalles del análisis de Open Liberty y WebSphere tradicional.
+    - **Migration Target:** La selección predeterminada es "**WebSphere Liberty**" como el destino de migración más óptimo. Sin embargo, también puede ver los detalles del análisis de Open Liberty y WebSphere tradicional.
 
-    - **Total de aplicaciones** : el número total de aplicaciones en el espacio de trabajo.
+    - **Total Applications**: el número total de aplicaciones en el espacio de trabajo.
 
-    - **Costo promedio por aplicación** : la cantidad promedio de días de esfuerzo de desarrollo necesarios para migrar una aplicación al destino WebSphere Liberty.
+    - **Avg. cost per application**: la cantidad promedio de días de esfuerzo de desarrollo necesarios para migrar una aplicación al destino WebSphere Liberty.
 
-    - **Código común** : el costo total para migrar todo el código común en el espacio de trabajo a la plataforma de destino.
+    - **Common Code**: el costo total para migrar todo el código común en el espacio de trabajo a la plataforma de destino.
 
-    - **Código de aplicación único** : el costo total para migrar todo el código de aplicación único (código que no se comparte entre aplicaciones) en el espacio de trabajo a la plataforma de destino.
+    - **Common Code**: el costo total para migrar todo el código de aplicación único (código que no se comparte entre aplicaciones) en el espacio de trabajo a la plataforma de destino.
 
-    - **Costo total** : el costo total para migrar todas las aplicaciones y el código común en el espacio de trabajo a la plataforma de destino.
+    - **Total cost**: el costo total para migrar todas las aplicaciones y el código común en el espacio de trabajo a la plataforma de destino.
 
-    En la siguiente sección, utilizará Transformation Advisor y realizará una revisión rápida del análisis de datos de la aplicación que se recopilaron para la aplicación “ **PlantsByWebSphere** ”.
+    En la siguiente sección, utilizará Transformation Advisor y realizará una revisión rápida del análisis de datos de la aplicación que se recopilaron para la aplicación “ **PlantsByWebSphere**”.
 
 ## Parte 3: Evaluación rápida de la aplicación PlantsByWebSphere
 
@@ -488,15 +488,15 @@ La primera información que obtendrá de Transformation Advisor es la complejida
 
 En esta sección, realizará una revisión rápida de los resultados del análisis de la aplicación **plantsbywebsphereee6.ear** para obtener una comprensión clara del esfuerzo de desarrollo para modernizar el entorno de ejecución a WebSphere Liberty para la aplicación PlantsByWebSphere.
 
-1. Asegúrese de estar en la página “ **Todas las aplicaciones Java** ” en Transformation Advisor.
+1. Asegúrese de estar en la página “**All Java applications**” en Transformation Advisor.
 
     ![](./images/media/image39.png)
 
-2. Asegúrese de que “ **WebSphere Liberty** ” sea el único destino de migración seleccionado
+2. Asegúrese de que “**WebSphere Liberty**” sea el único destino de migración seleccionado
 
     ![](./images/media/image40.png)
 
-3. En la sección **"Aplicaciones Java"** , ubique **plantsbywebsphereee6.ear** que es la única aplicación que fue analizada por el recopilador de datos.
+3. En la sección **"Java applications"** , ubique **plantsbywebsphereee6.ear** que es la única aplicación que fue analizada por el recopilador de datos.
 
     Analicemos el resumen de la aplicación con una explicación de las columnas de datos según la ilustración de **plantsbywebsphereee6.ear** a continuación:
 
@@ -564,7 +564,7 @@ En esta sección, realizará una revisión rápida de los resultados del anális
 
 6. **Cierre** la pestaña Informe de tecnología de aplicación en el navegador Firefox.
 
-7. Regresar a la vista “ **Todas las aplicaciones Java** ” en Transformation Advisor
+7. Regresar a la vista “**All Java applications**” en Transformation Advisor
 
     ![](./images/media/image45.png)
 
@@ -582,7 +582,7 @@ El plan de migración incluye un **conjunto** de diversos artefactos, según las
 
 Ahora, exploremos rápidamente el **plan de migración** de la aplicación PlantsByWebSphere para ver los artefactos que Transformation Advisor creó para acelerar la implementación de la aplicación en el entorno de ejecución de destino de WebSphere Liberty.
 
-1. Asegúrese de estar en la vista “ **Todas las aplicaciones Java** ” en Transformation Advisor, que muestra la lista de resumen de aplicaciones Java
+1. Asegúrese de estar en la vista “**All Java applications**” en Transformation Advisor, que muestra la lista de resumen de aplicaciones Java
 
     ![](./images/media/image46.png)
 
@@ -590,7 +590,7 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Plant
 
     ![](./images/media/image47.png)
 
-3. Haga clic en el enlace **Plan de migración** ubicado junto a la aplicación **plantsbywebsphereee6.ear** , que mostrará su **plan de migración** para el entorno de ejecución de destino de WebSphere Liberty.
+3. Haga clic en el enlace **Migration plan** ubicado junto a la aplicación **plantsbywebsphereee6.ear** , que mostrará su **plan de migración** para el entorno de ejecución de destino de WebSphere Liberty.
 
     ![](./images/media/image48.png)
 
@@ -598,7 +598,7 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Plant
 
     ![](./images/media/image49.png)
 
-5. Desplácese hacia abajo hasta la sección **"Archivos de vista previa"** del plan de migración. Observe los archivos generados por Transformation Advisor para acelerar la compilación y la implementación de la aplicación en Liberty.
+5. Desplácese hacia abajo hasta la sección **"Preview files"** del plan de migración. Observe los archivos generados por Transformation Advisor para acelerar la compilación y la implementación de la aplicación en Liberty.
 
     ![](./images/media/image50.png)
 
@@ -611,9 +611,9 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Plant
 
     El usuario puede elegir **descargar** los artefactos como un paquete de migración.
 
-6. Desplácese hacia abajo y revise las " **Dependencias de la aplicación** ". Luego, expanda la aplicación **"plantsbywebsphereee6.ear"** .
+6. Desplácese hacia abajo y revise las "**Application Dependencies**". Luego, expanda la aplicación **"plantsbywebsphereee6.ear"** .
 
-    El Asesor de Transformación detectó dos bibliotecas de bases de datos DB2 como dependencias necesarias para la aplicación PlantsByWebSphere. Durante el proyecto de migración, deberá recopilar las bibliotecas necesarias y colocarlas en la ruta de bibliotecas de Liberty.
+    El Transformation Advisor detectó dos bibliotecas de bases de datos DB2 como dependencias necesarias para la aplicación PlantsByWebSphere. Durante el proyecto de migración, deberá recopilar las bibliotecas necesarias y colocarlas en la ruta de bibliotecas de Liberty.
 
     ![](./images/media/image51.png)
 
@@ -621,13 +621,13 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Plant
 
     ![](./images/media/image52.png)
 
-    El paquete de migración denominado “ **plantsbywebsphereee6.ear_migrationBundle.zip”** se descargará en el directorio **/home/techzone/Downloads** .
+    El paquete de migración denominado “**plantsbywebsphereee6.ear_migrationBundle.zip”** se descargará en el directorio **/home/techzone/Downloads** .
 
     ![](./images/media/image53.png)
 
 8. Descomprima los artefactos del paquete de migración en una nueva carpeta en la máquina virtual server0.gym.lan
 
-    a. Desde una ventana de terminal, ejecute los siguientes comandos para descomprimir el paquete de migración en un nuevo directorio llamado " **pbw** - **bundle** ":
+    a. Desde una ventana de terminal, ejecute los siguientes comandos para descomprimir el paquete de migración en un nuevo directorio llamado "**pbw** - **bundle**":
 
     ```
     mkdir /home/techzone/Student/lab_1005/pbw-bundle
@@ -645,13 +645,13 @@ Ahora, exploremos rápidamente el **plan de migración** de la aplicación Plant
 
 Ha descargado los artefactos del acelerador de implementación generados por Transformation Advisor, que acelerarán la configuración y la implementación de PlantsByWebSphere en Liberty.
 
-Los siguientes pasos, que se detallan en el siguiente laboratorio; “ **Lab_1010-Modernización del tiempo de ejecución** ”, son:
+Los siguientes pasos, que se detallan en el siguiente laboratorio; “**Lab_1010-Modernización del tiempo de ejecución**”, son:
 
 - Instalar WebSphere Liberty mediante el método de instalación de archivo
 
 - Crear un nuevo servidor WebSphere Liberty
 
-- Configure el servidor WebSphere Liberty utilizando los aceleradores de implementación generados por Transformation Adviser, es decir, el archivo “ **server.xml** ”.
+- Configure el servidor WebSphere Liberty utilizando los aceleradores de implementación generados por Transformation Adviser, es decir, el archivo “**server.xml**”.
 
 - Implementar la aplicación PlantsByWebSphere en WebSphere Liberty
 
@@ -665,4 +665,4 @@ Transformation Advisor acelera la migración de aplicaciones a Liberty y ayuda a
 
 **¡Felicidades!**
 
-**Has completado con éxito el laboratorio “Asesor de Transformación”**
+**Has completado con éxito el laboratorio “Transformation Advisor”**
